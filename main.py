@@ -15,8 +15,8 @@ import aiohttp
 class MyPlugin(BasePlugin):
     # napcat的域名和端口号
     # 使用时需在napcat内配置http服务器 host和port对应好
-    http_host = "localhost"
-    http_port = 2333
+    http_host = "172.17.0.10"
+    http_port = 3000
     # 打包成pdf时每批处理的图片数量 每批越小占用越小
     batch_size = 10
     # 每个pdf中最多有多少个图片 设置为0则不限制
