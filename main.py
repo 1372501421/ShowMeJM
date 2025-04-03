@@ -19,7 +19,7 @@ class MyPlugin(BasePlugin):
         "platform": 'napcat',
         # 消息平台的域名,端口号和token
         # 使用时需在napcat内配置http服务器 host和port对应好
-        'http_host': 'localhost',
+        'http_host': '172.18.0.6',
         'http_port': 2333,
         # 若消息平台未配置token则留空 否则填写配置的token
         'token': '',
